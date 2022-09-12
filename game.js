@@ -110,5 +110,8 @@ resetButton.addEventListener("click", () =>{
         element.disabled = false;
     })
 
+    scoreX.style.background = "#F2B237";
+    scoreY.style.background = "#F2B237";
+
     setTurn();
 });

@@ -1,0 +1,122 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+body{
+    background-color: #192A32;
+}
+
+.board{
+    margin: 10px auto;
+    width: 700px;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    text-align: center;
+}
+
+
+.grid{
+    height: 150px;
+    margin: 20px 10px 10px 10px;
+    background-color: #1F3540;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0px 10px 5px black;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.button-to-select{
+    margin: 30px auto;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+}
+
+.controls{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    height: 40px;
+    background-color: #F2B237;
+}
+
+.score-x{
+    height: 40px;
+    background-color: #F2B237;
+}
+
+.score-x p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.score-y{
+    height: 40px;
+    background-color: #F2B237;
+}
+
+.score-y p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.win{
+    height: 40px;
+    background-color: #1F3540;
+     /* Color for win #83DE33*/
+}
+
+.win p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.turn{
+    color: white;
+    background-color: #1F3540;
+}    
+
+.symbols p{
+    text-align: center;
+    font-size: 30px;
+    font-weight:600;
+}
+
+.turn p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.zero p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.reset{
+    height: 40px;
+    background-color: #10A7BF;
+     /* Color for win #83DE33*/
+}
+
+.reset p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}

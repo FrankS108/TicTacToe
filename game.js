@@ -33,6 +33,9 @@ const setTurn = () => {
         gridCross.style.background = "#1F3540"
         gridZero.style.background = "#10BF8A"
     }
+
+    scoreX.style.background = "#F2B237";
+    scoreY.style.background = "#F2B237";
 }
 
 const winCheck = () => {
@@ -109,9 +112,5 @@ resetButton.addEventListener("click", () =>{
         element.innerHTML = "";
         element.disabled = false;
     })
-
-    scoreX.style.background = "#F2B237";
-    scoreY.style.background = "#F2B237";
-
     setTurn();
 });
